@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/texv_intel_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/intelligence"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texv_stren_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/strength"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/texv_intel_la"
+        app:layout_constraintTop_toBottomOf="@+id/texv_intel_la" />
+
+    <TextView
+        android:id="@+id/texv_spe_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/speed"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/texv_stren_la"
+        app:layout_constraintTop_toBottomOf="@+id/texv_stren_la" />
+
+    <TextView
+        android:id="@+id/texv_dura_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/durability"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/texv_spe_la"
+        app:layout_constraintTop_toBottomOf="@+id/texv_spe_la" />
+
+    <TextView
+        android:id="@+id/texv_pow_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/power"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/texv_dura_la"
+        app:layout_constraintTop_toBottomOf="@+id/texv_dura_la" />
+
+    <TextView
+        android:id="@+id/texv_com_la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/combat"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/texv_pow_la"
+        app:layout_constraintTop_toBottomOf="@+id/texv_pow_la" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

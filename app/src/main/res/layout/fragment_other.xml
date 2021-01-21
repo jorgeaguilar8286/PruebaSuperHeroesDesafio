@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/work"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_work_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/hero_work_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_work"
+        app:layout_constraintTop_toBottomOf="@+id/tv_work" />
+
+    <TextView
+        android:id="@+id/tv_base_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/base"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_work"
+        app:layout_constraintTop_toBottomOf="@+id/tv_work_value" />
+
+    <TextView
+        android:id="@+id/tv_base_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/base_value_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_work_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_base_label" />
+
+    <TextView
+        android:id="@+id/tv_group_affil_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/group_affiliation"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_base_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_base_value" />
+
+    <TextView
+        android:id="@+id/tv_group_affil_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/group_affiliation_value_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_group_affil_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_group_affil_label" />
+
+    <TextView
+        android:id="@+id/tv_relatives_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/relatives"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_group_affil_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_group_affil_value" />
+
+    <TextView
+        android:id="@+id/tv_relatives_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/relatives_value_here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_relatives_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_relatives_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

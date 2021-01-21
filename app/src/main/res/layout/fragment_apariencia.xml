@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_heigth_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/heigth"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_heigth_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/heigth_value"
+        app:layout_constraintStart_toEndOf="@+id/tv_heigth_label"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/weight"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_heigth_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heigth_label" />
+
+    <TextView
+        android:id="@+id/tv_weight_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/weightvalue"
+        app:layout_constraintStart_toStartOf="@+id/tv_heigth_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_heigth_value" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/gender"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/id_weight"
+        app:layout_constraintTop_toBottomOf="@+id/id_weight" />
+
+    <TextView
+        android:id="@+id/tv_gender_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/gender_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_weight_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_weight_value" />
+
+    <TextView
+        android:id="@+id/tv_race"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/race"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_gender"
+        app:layout_constraintTop_toBottomOf="@+id/tv_gender" />
+
+    <TextView
+        android:id="@+id/tv_race_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/race_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_gender_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_gender_value" />
+
+    <TextView
+        android:id="@+id/tv_eyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/eyes"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_race"
+        app:layout_constraintTop_toBottomOf="@+id/tv_race" />
+
+    <TextView
+        android:id="@+id/tv_eye_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/eyes_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_race_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_race_value" />
+
+    <TextView
+        android:id="@+id/tv_hair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hair"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tv_eyes"
+        app:layout_constraintTop_toBottomOf="@+id/tv_eyes" />
+
+    <TextView
+        android:id="@+id/tv_hair_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hair_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_eye_value"
+        app:layout_constraintTop_toBottomOf="@+id/tv_eye_value" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

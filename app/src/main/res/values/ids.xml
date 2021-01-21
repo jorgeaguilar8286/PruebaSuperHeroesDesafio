@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ratb_stren" type="id" />
+    <item name="texv_stren_la" type="id" />
+    <item name="ratb_intel" type="id" />
+    <item name="texv_pow_la" type="id" />
+    <item name="texv_com_la" type="id" />
+    <item name="texv_dura_la" type="id" />
+    <item name="texv_spe_la" type="id" />
+    <item name="texv_intel_la" type="id" />
+    <item name="ratb_spe" type="id" />
+    <item name="ratb_dura" type="id" />
+    <item name="ratb_pow" type="id" />
+    <item name="ratb_com" type="id" />
+    <item name="tv_place_of_birth_label" type="id" />
+    <item name="tv_full_name" type="id" />
+    <item name="tv_full_name_value" type="id" />
+    <item name="tv_alter_egos_label" type="id" />
+    <item name="tv_alter_egos_value" type="id" />
+    <item name="tv_aliases" type="id" />
+    <item name="tv_aliases_value" type="id" />
+    <item name="tv_place_of_birth_value" type="id" />
+    <item name="tv_first_appareance" type="id" />
+    <item name="tv_first_appearance_value" type="id" />
+    <item name="tv_heigth_label" type="id" />
+    <item name="tv_heigth_value" type="id" />
+    <item name="id_weight" type="id" />
+    <item name="tv_weight_value" type="id" />
+    <item name="tv_gender" type="id" />
+    <item name="tv_gender_value" type="id" />
+    <item name="tv_race" type="id" />
+    <item name="tv_race_value" type="id" />
+    <item name="tv_eyes" type="id" />
+    <item name="tv_eye_value" type="id" />
+    <item name="tv_hair" type="id" />
+    <item name="tv_hair_value" type="id" />
+</resources>
